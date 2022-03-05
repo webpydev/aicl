@@ -8,6 +8,7 @@ class EATABLES(BaseModel):
     favourite: str
     rate: int
     confess: bool
+    bae: str
     others: Optional[list]
 
 @app.get("/groceries/{input}")
